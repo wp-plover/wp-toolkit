@@ -1,3 +1,3 @@
-# Plover Nest
+# Plover WP Toolkit
 
-Plover Nest is a lightweight PHP library featuring an auto-wiring dependency injection container and a ServiceProvider architecture, inspired by Laravel, designed for simplicity and minimalism.
+Toolkits for WordPress plugins or themes development
