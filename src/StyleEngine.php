@@ -146,7 +146,7 @@ class StyleEngine {
 	/**
 	 * @return array|mixed
 	 */
-	public static function get_block_shadow_styles() {
+	public static function get_block_shadow_styles( $attrs ) {
 		$shadow_attributes = isset( $attrs['style']['shadow'] ) ? $attrs['style']['shadow'] : null;
 		if ( isset( $shadow_attributes ) && ! empty( $shadow_attributes ) ) {
 
