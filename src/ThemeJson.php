@@ -5,7 +5,7 @@ namespace Plover\Toolkit;
 /**
  * @since 1.0.0
  */
-class JSON {
+class ThemeJson {
 	/**
 	 * Given an array of settings, extracts the CSS Custom Properties
 	 * for the custom values and adds them to the $declarations
