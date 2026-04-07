@@ -137,7 +137,7 @@ class Responsive {
 	 * @return mixed|null
 	 */
 	public static function mobile_breakpoint( $mobileFirst = false ) {
-		$breakpoint = static::mobile_breakpoint_size();
+		$breakpoint = static::mobile_screen_width();
 		if ( ! $mobileFirst ) {
 			$breakpoint --;
 		}
